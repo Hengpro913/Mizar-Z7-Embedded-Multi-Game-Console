@@ -1,0 +1,51 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "system_kmerge_v3_1",
+    "cell_name": "kmerge_v3",
+    "component_reference": "xilinx.com:module_ref:top_key_merge:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../MizarZ7_PLPS.gen/sources_1/bd/system/ip/system_kmerge_v3_1",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "system_kmerge_v3_1", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq", "resolve_type": "generated", "usage": "all" } ],
+        "BASE_BOARD_PART": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "BOARD_CONNECTIONS": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "DEVICE": [ { "value": "xc7z020", "resolve_type": "generated", "usage": "all" } ],
+        "PACKAGE": [ { "value": "clg400", "resolve_type": "generated", "usage": "all" } ],
+        "PREFHDL": [ { "value": "VERILOG", "resolve_type": "generated", "usage": "all" } ],
+        "SILICON_REVISION": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED", "resolve_type": "generated", "usage": "all" } ],
+        "SPEEDGRADE": [ { "value": "-2", "resolve_type": "generated", "usage": "all" } ],
+        "STATIC_POWER": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "TEMPERATURE_GRADE": [ { "value": "", "resolve_type": "generated", "usage": "all" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../MizarZ7_PLPS.gen/sources_1/bd/system/ip/system_kmerge_v3_1" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2026.1" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "btn_n": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "bt_host_wake": [ { "direction": "in" } ],
+        "ps_ctrl": [ { "direction": "in", "size_left": "31", "size_right": "0" } ],
+        "btn_eff": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "bt_nreset_n": [ { "direction": "out" } ],
+        "bt_wake": [ { "direction": "out" } ],
+        "show_ovl": [ { "direction": "out" } ],
+        "st_mon": [ { "direction": "out", "size_left": "4", "size_right": "0" } ]
+      }
+    }
+  },
+  "checksum": "ab4daf91"
+}
